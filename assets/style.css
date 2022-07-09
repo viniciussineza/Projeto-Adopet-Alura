@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Joan&display=swap');
+
+@media screen and (max-width: 380px){
+    body {
+        background: #3772FF;
+        mix-blend-mode: normal;
+    }
+
+    header {
+        background: url(./img/vector1.png) no-repeat;
+        display: inline-flexbox;
+        width: 360px;
+        height: 280px;
+    }
+
+    .icones-inicial{
+        position: absolute;
+        margin-top: 15%;
+        width: 100%;
+        padding-left: 10px;
+
+    }
+
+    .icones-inicial img {
+        margin-left: 11%;
+    }
+
+    .logo-inicial {
+        position: absolute;
+        width: 360px;
+        margin-top: 170px;
+    }
+
+    .logo-inicial img {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sub-titulo-inicial {
+        position: absolute;
+        width: 360px;
+        height: 48px;
+        margin-top: 230px;
+    }
+
+    .sub-titulo-inicial h2{
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 48px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
