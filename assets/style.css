@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Joan&display=swap');
 
 @media screen and (max-width: 380px){
     body {
@@ -8,9 +7,11 @@
 
     header {
         background: url(./img/vector1.png) no-repeat;
-        display: inline-flexbox;
+        position: relative;
+        display: flex;
         width: 360px;
         height: 280px;
+        justify-content: center;
     }
 
     .icones-inicial{
@@ -18,31 +19,37 @@
         margin-top: 15%;
         width: 100%;
         padding-left: 10px;
-
     }
 
     .icones-inicial img {
         margin-left: 11%;
     }
 
+/* ___________________________________ Conteudo principal ___________________________________*/
+
+    /* logo */
     .logo-inicial {
         position: absolute;
-        width: 360px;
-        margin-top: 170px;
+        height: 46px;
+        width: 100%;
+        top: 170px;
     }
 
     .logo-inicial img {
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+        position:absolute;
+        height: 100%;
+        display: flex;
+        left: 67px;
     }
+    /* logo */
 
+    /* titulo 2 */
     .sub-titulo-inicial {
         position: absolute;
-        width: 360px;
+        width: 100%;
         height: 48px;
-        margin-top: 230px;
+        top: 230px;
+        display: flex;
     }
 
     .sub-titulo-inicial h2{
@@ -52,6 +59,36 @@
         font-size: 26px;
         line-height: 48px;
         color: #FFFFFF;
-        text-align: center;
+    }
+    /* titulo 2 */
+
+    /* ___________________________________ Footer  ___________________________________*/
+
+    footer {
+        background: #36D6AD;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 76%;
+    }
+
+    footer div {
+        position: absolute;
+        width: 260px;
+        height: 48px;
+        top: 26px;
+        left: 30px;
+    }
+
+    footer p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
