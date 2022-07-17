@@ -1,0 +1,76 @@
+/*------------------ main container ------------------ */
+body {
+    width: 412px;
+    min-height: 915px;
+
+    background: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+ }
+/*------------------ main container ------------------ */ 
+/*------------------ header container ------------------ */
+header {
+    width: 100%;
+    height: 280px;
+    background: url('./img/vector1.png') 0 0 no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav-header {
+    width: 80%;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ontainer-botao-home {
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-botao-mensagem {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+.container-botao-perfil {
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+/*------------------ header container ------------------ */
+/*------------------ content container ------------------ */
+main {
+    background: #dba6eb;
+    width: 100%;
+    height: 535px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+/*------------------ content container ------------------ */
+/*------------------ footer container ------------------ */
+footer {
+    width: 100%;
+    height: 100px;
+    background: #36D6AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer  p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*------------------ footer container ------------------ */

@@ -10,8 +10,8 @@
         display: flex;
         flex-direction: column;
     }
-/*------------------ main container ------------------ */
-/*------------------ header container ------------------ */
+    /*------------------ main container ------------------ */
+    /*------------------ header container ------------------ */
     header {
         width: 412px;
         height: 280px;
@@ -62,7 +62,7 @@
         color: #3772FF;
     }
 /*------------------ header container ------------------ */
-/*------------------ main container ------------------ */
+/*------------------ content container ------------------ */
     main {
         /* background: #dba6eb; */
         width: 100%;
@@ -136,8 +136,8 @@
         line-height: 24px;
         text-align: center;
     }
-/*------------------ main container ------------------ */
-/*------------------ footer container ------------------ */
+    /*------------------ content container ------------------ */
+    /*------------------ footer container ------------------ */
     footer {
         width: 100%;
         height: 100px;
@@ -155,5 +155,5 @@
         text-align: center;
         color: #FFFFFF;
     }
-/*------------------ footer container ------------------ */    
+    /*------------------ footer container ------------------ */    
 }
