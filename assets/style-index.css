@@ -1,11 +1,10 @@
-/*------------------ tablet container ------------------ */
 @media screen and (width: 768px) {
     /*------------------ main container ------------------ */
     body {
         width: 768px;
         height: 1200px;
         
-        background: url(../assets/img/tablet-forma1.png) top 0 left 0 no-repeat, url(../assets/img/table-forma2.png) right 50% no-repeat, url(../assets/img/tablet-patas.png) right 0 no-repeat, #FFFFFF;
+        background: url(../assets/img/tablet-forma1.png) top 0 left 0 no-repeat, url(../assets/img/table-forma2.png) right 50% no-repeat, #3772FF;
     }
     /*------------------ main container ------------------ */
     /*------------------ header container ------------------ */
@@ -75,94 +74,83 @@
         align-items: center;
     }
 
-    .container-texto-tablet{
+    .container-tablet-boas-vindas {
         width: 100%;
-        height: 352px;
+        height: 438px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .container-texto-tablet img {
-        margin-top: 162px;
-        height: 62px;
-    }
-
-    .container-texto-tablet p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        line-height: 26px;
-        font-size: 18px;
-        text-align: center;
-        color: #3772FF;
-        width: 525px;
-    }
-
-    .p__margen-top {
-        margin-top: 40px;
-    }
-
-    .container-form-cadastro-tablet {
-        width: 100%;
-        height: 648px;
-    }
-
-    .container-form-cadastro-tablet form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container-form-cadastro-tablet label {
-        margin: 24px 0 10px;
-
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        line-height: 24px;
-        font-size: 18px;
-        text-align: center;
-        color: #737380;
-    }
-
-    .container-form-cadastro-tablet input {
-        margin-top: 4px;
-
-        width: 344px;
-        height: 40px;
-
-        background: #F7F7F7;
-        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
-        border-radius: 6px;
-
+    .botao-logo-main {
+        margin-top: 184px;
+        padding: 0;
+        width: 252px;
         border: none;
+        background: none;
     }
 
-    .container-form-cadastro-tablet input::placeholder {
+    .botao-logo-main img {
+        width: 252px;
+    }
+
+    h2 {
+        display: flex;
         font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        line-height: 16px;
-        font-size: 14px;
-        text-align: center;
-        color: #BCBCBC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin-top: 40px;
     }
 
-    .container-form-cadastro-tablet button {
-        margin-top: 40px;
-        width: 164px;
-        height: 40px;
+    h4 {
+        margin-top: 24px;
+        width:  344px;
+
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .container-tablet-nav-main {
+        width: 100%;
+        height: 128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .container-tablet-nav-main button {
+        width: 344px;
+        height: 48px;
         background: #FC7071;
         border-radius: 6px;
+        padding: 0px;
         border: none;
 
         font-family: 'Poppins', sans-serif;
+        font-style: normal;
         font-weight: 600;
-        line-height: 24px;
         font-size: 18px;
-        text-align: center;
+        line-height: 24px;
         color: #FFFFFF;
+        text-align: center;
     }
 
-
+    .container-tablet-img-main {
+        background: url(../assets/img/tablet-ilustração.png) no-repeat;
+        background-size: 349px;
+        width: 360px;
+        height: 394px;
+    }
     /*------------------ main container ------------------ */
     /*------------------ footer container ------------------ */
     footer {
@@ -182,40 +170,27 @@
         text-align: center;
         color: #FFFFFF;
     }
-
-    footer a {
-        color: #FFFFFF;
-        text-decoration: none;
-    }
     /*------------------ footer container ------------------ */
 }
-/*------------------ phone container ------------------ */
+
 @media screen and (max-width: 412px) {
-    /*------------------ main container ------------------ */
+/*------------------ main container ------------------ */
     body {
         width: 412px;
         height: 915px;
 
-        background: url(./img/forma2-inverte.png) no-repeat, #FFFFFF;
-        background-position: left 72% , 0;
+        background: url(./img/forma2.png) no-repeat, #3772FF;
+        background-position: right 50% , 0;
 
         display: flex;
         flex-direction: column;
     }
-    /*------------------ main container ------------------ */
-    /*------------------ header container ------------------ */
+/*------------------ main container ------------------ */
+/*------------------ header container ------------------ */
     header {
         width: 412px;
         height: 280px;
         background: url("./img/vector1.png") 0 0 no-repeat;
-    }
-
-    .container-patinhas {
-        background: url('./img/patas.png') right 0 no-repeat;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 180px;
     }
 
     .container-nav-header {
@@ -229,34 +204,31 @@
 
     .logo-container {
         width: 100%;
-        height: 112px;
+        height: 46px;
         display: flex;
-        align-items: flex-end;
         justify-content: center;
+        margin: 100px 0 18px;
     }
 
-    .texto-cadastro-container {
+    .titulo-container {
         width: 100%;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        height: 48px;
     }
 
-    .texto-cadastro-container p {
-        width: 80%;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        text-align: center;
-        color: #3772FF;
+    h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 48px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
     }
 /*------------------ header container ------------------ */
 /*------------------ content container ------------------ */
     main {
-        /* background: #dba6eb; */
+/*         background: url(./img/forma2.png) 10px right no-repeat; */
         width: 100%;
         height: 535px;
         overflow: auto;
@@ -264,76 +236,55 @@
         flex-direction: column;
     }
 
-    form {
+    .main-p-invite {
         width: 100%;
-        height: 450px;
+        height: 80px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        margin: 20px 0;
-    }
-
-    .row {
-        width: 90%;
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        margin: 15px 0;
-    }
-
-    .placa label {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
-        color: #737380;
-    }
-
-    .entrada {
-        width: 100%;
-        display: flex;
         align-items: center;
     }
 
-    .entrada input {
-        height: 40px;
-        background: #F7F7F7;
-        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-        border-radius: 6px;
-        border: none;
-    }
-
-    .row input::placeholder {
+    .main-p-invite p {
+        width: 248px;
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
-        font-size: 12px;
-        text-align: center;
-        color: #BCBCBC;
-    }
-
-    .botao {
-        width: 100%;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .botao  button{
-        width: 150px;
-        height: 50px;
-        background: #FC7071;
-        color: #FFFFFF;
-        border-radius: 6px;
-
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
         line-height: 24px;
+        font-size: 16px;
         text-align: center;
+        color: #FFFFFF;
     }
-    /*------------------ content container ------------------ */
-    /*------------------ footer container ------------------ */
+
+    .container-nav-main {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .container-nav-main button {
+        width: 180px;
+        height: 40px;
+        background: #FC7071;
+        border: 1px solid #FC7071;
+        border-radius: 6px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .container-img-main {
+        background: url(./img/ilustracao1.png) bottom 10 0% left 15% no-repeat;
+        background-size: 300px;
+        width: 100%;
+        height: 335px;
+    }
+/*------------------ content container ------------------ */
+/*------------------ footer container ------------------ */
     footer {
         width: 100%;
         height: 100px;
@@ -351,5 +302,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    /*------------------ footer container ------------------ */    
+
+
+/*------------------ footer container ------------------ */
 }
