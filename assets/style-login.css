@@ -1,3 +1,195 @@
+ /*------------------ tablet container ------------------ */
+ @media screen and (max-width: 768px) {
+    /*------------------ main container ------------------ */
+    body {
+        width: 768px;
+        height: 1200px;
+        
+        background: url(../assets/img/tablet-forma1.png) top 0 left 0 no-repeat, url(../assets/img/table-forma2.png) right 50% no-repeat, url(../assets/img/tablet-patas.png) right 0 no-repeat, #FFFFFF;
+    }
+    /*------------------ main container ------------------ */
+    /*------------------ header container ------------------ */
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .botao-logo {
+        margin-left: 50px;
+        padding: 0;
+        width: 128px;
+        border: none;
+        background: none;
+    }
+
+    .botao-logo img {
+        width: 128px;
+    }
+    
+
+    .botao-home {
+        margin-left: 65px;
+        padding: 0;
+        width: 20px;
+        border: none;
+        background: none;
+    }
+    
+    .botao-home img {
+        width: 20px;
+    }
+    
+    .botao-mensagem {
+        margin-left: 65px;
+        padding: 0;
+        width: 25px;
+        border: none;
+        background: none;
+    }
+    
+    .botao-mensagem img {
+        width: 25px;
+    }
+    
+/*     .botao-perfil {
+        margin-left: 320px;
+        padding: 0;
+        width: 48px;
+        border: none;
+        background: none;
+    } 
+    
+    .botao-perfil img {
+        width: 48px;
+    } */
+    /*------------------ header container ------------------ */
+    /*------------------ main container ------------------ */
+    main {
+        width: 100%;
+        height: 1000px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto-tablet{
+        width: 100%;
+        height: 352px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-texto-tablet img {
+        margin-top: 162px;
+        height: 62px;
+    }
+
+    .container-texto-tablet p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 26px;
+        font-size: 18px;
+        text-align: center;
+        color: #3772FF;
+        width: 525px;
+    }
+
+    .p__margen-top {
+        margin-top: 40px;
+    }
+
+    .container-form-login-tablet {
+        width: 100%;
+        height: 648px;
+    }
+
+    .container-form-login-tablet form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-form-login-tablet label {
+        margin: 24px 0 10px;
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 18px;
+        text-align: center;
+        color: #737380;
+    }
+
+    .container-form-login-tablet input {
+        margin-top: 4px;
+
+        width: 344px;
+        height: 40px;
+
+        background: #F7F7F7;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+
+        border: none;
+    }
+
+    .container-form-login-tablet input::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 16px;
+        font-size: 14px;
+        text-align: center;
+        color: #BCBCBC;
+    }
+
+    .container-form-login-tablet button {
+        margin-top: 40px;
+        width: 164px;
+        height: 40px;
+        background: #FC7071;
+        border-radius: 6px;
+        border: none;
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    /*------------------ main container ------------------ */
+    /*------------------ footer container ------------------ */
+    footer {
+        width: 100%;
+        height: 100px;
+        background: #36D6AD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer  p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    /*------------------ footer container ------------------ */
+ }
+ /*------------------ phone container ------------------ */
  @media screen and (max-width: 412px) {
     /*------------------ main container ------------------ */
     body {

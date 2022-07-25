@@ -8,9 +8,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Joan&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/style-login.css">
+        <link rel="stylesheet" href="../assets/style-perfil.css">
         <link rel="icon" href="../assets/img/icon-title.png" type="image/icon type">
-        <title>Adopet - Login</title>
+        <title>Adopet - Perfil</title>
     </head>
     <body>
         <header>
@@ -21,31 +21,36 @@
                 <button type="button" class="botao-home">
                     <img src="../assets/img/casa.png" alt="Home">
                 </button>
-                <button type="button" class="botao-mensagem">
+                <button type="butt on" class="botao-mensagem">
                     <img src="../assets/img/mensagens.png" alt="Mensagens - Botão para entrar em contato">
                 </button>
-    <!--                 <button type="button" class="botao-perfil">
+                <button type="button" class="botao-perfil">
                     <img src="../assets/img/usuario.png" alt="Botão para o perfil de usuário">
-                </button> -->
+                </button>
             </nav>
         </header>
         <main>
             <section class="container-texto-tablet">
-                <img src="../assets/img/tablet-logo-azul.png" alt="logo marca">
-                <p class="p__margen-top">Já tem conta? Faça seu login:</p>
+                <p>Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
             </section>
-            <section class="container-form-login-tablet">
-                <form>
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail" placeholder="Digite seu melhor email">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" placeholder="Insira sua senha">
-                    <button type="button">Entrar</button>
-                </form>
+            <section class="container-perfil">
+                <h4>Perfil</h4>
+                <label for="foto">Foto</label>
+                <img src="../assets/img/usuario.png" alt="Foto perfil usuário">
+                <p>Clique na foto para editar</p>
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Insira seu nome">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" placeholder="Insira seu telefone">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" placeholder="Insira a Cidade">
+                <label for="about">Sobre</label>
+                <input type="text" id="about">
+                <button type="button">Salvar</button>
             </section>
         </main>
         <footer>
             <p>2022 - Desenvolvido por <a href="https://www.linkedin.com/in/vin%C3%ADcius-sineza-1bba3b28/" target="_blank">Vinicius</a> (Alura Challenge)</p>
-        </footer>
+        </footer>  
     </body>
 </html>

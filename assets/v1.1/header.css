@@ -1,0 +1,102 @@
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end; 
+}
+
+.botao-logo {
+    margin-left: 162px;
+    padding: 0;
+    width: 128px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.botao-logo img {
+    width: 128px;
+}
+
+.botao-home {
+    margin-left: 50px;
+    padding: 0;
+    width: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.botao-home img {
+    margin-bottom: 5px;
+    width: 20px;
+}
+
+.botao-mensagem {
+    margin-left: 30px;
+    padding: 0;
+    width: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.botao-mensagem img {
+    margin-bottom: 5px;
+    width: 25px;
+}
+
+/* .botao-perfil {
+    margin-left: 320px;
+    padding: 0;
+    width: 48px;
+    border: none;
+    background: none;
+} 
+
+.botao-perfil img {
+    width: 48px;
+} */
+
+@media screen and (max-width: 768px) {
+
+    .botao-logo {
+        margin-left: 50px;
+    }
+
+    .botao-home {
+        margin-left: 65px;
+    }
+    
+    .botao-mensagem { 
+        margin-left: 65px;
+    }
+    
+    /* .botao-perfil {
+        margin-left: 320px;
+        padding: 0;
+        width: 48px;
+        border: none;
+        background: none;
+    } 
+    
+    .botao-perfil img {
+        width: 48px;
+    } */
+}
+
+@media screen and (max-width: 412px) {
+    .botao-logo {
+        width: 0;
+        margin-left: 0;
+        visibility: hidden;
+    }
+
+    .botao-home {
+        margin-left: 50px;
+    }
+
+    .botao-mensagem {
+        margin-left: 60px;
+    }
+}

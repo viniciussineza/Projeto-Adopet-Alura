@@ -279,8 +279,8 @@
 
     .container-img-main {
         background: url(./img/ilustracao1.png) bottom 10 0% left 15% no-repeat;
-        background-size: 300px;
         width: 100%;
+        background-size: 300px;
         height: 335px;
     }
 /*------------------ content container ------------------ */

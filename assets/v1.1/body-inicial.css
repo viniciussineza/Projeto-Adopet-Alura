@@ -1,0 +1,19 @@
+body {
+    background: url(../img/tablet-forma1.png) top 0 left 0 no-repeat,
+                #3772FF;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    body {
+        background: url(../img/vector1.png) top 0 left 0 no-repeat, #3772FF;
+        height: 917px;
+    }
+}

@@ -1,0 +1,26 @@
+.conteudo-inicial__img-cat-dog {
+    background: url(../img/tablet-ilustração.png) left 0 top 0 no-repeat;
+    background-size: 370px;
+    width: 440px;
+    height: 425px;
+    margin: 30px auto 0;
+}
+
+@media screen and (max-width: 768px){
+    .conteudo-inicial__img-cat-dog {
+        background-size: 349px;
+        width: 390px;
+        height: 405px;
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .conteudo-inicial__img-cat-dog {
+        background-size: 250px;
+        width: 305px;
+        height: 375px;
+        margin: 30px auto 0;
+    }
+}
+

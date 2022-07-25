@@ -1,255 +1,457 @@
-/*------------------ main container ------------------ */
-body {
-    width: 412px;
-    min-height: 915px;
+/*------------------ tablet container ------------------ */
+@media screen and (max-width: 768px) {
+    /*------------------ main container ------------------ */
+    body {
+        width: 768px;
+        height: 1200px;
+        
+        background: url(../assets/img/tablet-forma1.png) top 0 left 0 no-repeat, url(../assets/img/table-forma2.png) right 55% no-repeat, #FFFFFF;
+    }
+    /*------------------ main container ------------------ */
+    /*------------------ header container ------------------ */
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: flex-end;
+    }
 
-    background: url('./img/vector1.png') 0 0 no-repeat, #FFFFFF;
+    .botao-logo {
+        margin-left: 50px;
+        padding: 0;
+        width: 128px;
+        border: none;
+        background: none;
+    }
 
-    display: flex;
-    flex-direction: column;
- }
-/*------------------ main container ------------------ */ 
-/*------------------ header container ------------------ */
-header {
-    width: 100%;
-    height: 250px;
-    /* background: url('./img/vector1.png') 0 0 no-repeat; */
-    display: flex;
-    flex-direction: column;
-    margin-top: 21px;
-}
+    .botao-logo img {
+        width: 128px;
+    }
+    
 
-.container-nav-header {
-    width: 100%;
-    height: 68px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
+    .botao-home {
+        margin-left: 65px;
+        padding: 0;
+        width: 20px;
+        border: none;
+        background: none;
+    }
+    
+    .botao-home img {
+        width: 20px;
+    }
+    
+    .botao-mensagem {
+        margin-left: 65px;
+        padding: 0;
+        width: 25px;
+        border: none;
+        background: none;
+    }
+    
+    .botao-mensagem img {
+        width: 25px;
+    }
+    
+    .botao-perfil {
+        margin-left: 320px;
+        padding: 0;
+        width: 48px;
+        border: none;
+        background: none;
+    } 
+    
+    .botao-perfil img {
+        width: 48px;
+    }
+    /*------------------ header container ------------------ */
+    /*------------------ main container ------------------ */
+    main {
+        width: 100%;
+        min-height: 1000px;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.botao-home {
-    margin-left: 60px;
-    padding: 0;
-    width: 20px;
-    border: none;
-    background: none;
-}
+    .container-texto-tablet{
+        width: 100%;
+        height: 248px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
-.botao-home img {
-    width: 20px;
-}
+    .container-texto-tablet p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 26px;
+        font-size: 18px;
+        text-align: center;
+        color: #3772FF;
+        width: 524px;
+    }
 
-.botao-mensagem {
-    margin-left: 60px;
-    padding: 0;
-    width: 25px;
-    border: none;
-    background: none;
-}
+    .container-perfil {
+        width: 524px;
+        height: 756px;
+        background: #F7F7F7;
+        border-radius: 6px;
+        margin-top: 26px;
+        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+    }
 
-.botao-mensagem img {
-    width: 25px;
-}
+    .container-perfil h4 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 21px;
+        color: #737380;
+        margin: 32px auto 0;
+    }
 
-.botao-perfil {
-    margin-left: 130px;
-    padding: 0;
-    width: 40px;
-    border: none;
-    background: none;
-    justify-content: right;
-}
+    .container-perfil label {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 16px;
+        color: #3772FF;
+        width: 90%;
+        margin: 16px auto 0;
+    }
 
-.botao-perfil img {
-    width: 40px;
-}
+    .container-perfil img {
+        width: 80px;
+        margin: 10px auto 5px;
+    }
 
-.container-titulo-home {
-    width: 100%;
-    height: 170px;
-    display: flex;
-    align-items: center;
-}
+    .container-perfil p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 12px;
+        color: #FC7071;
+        margin: 0 auto;
+    }
 
-.container-titulo-home p {
-    width: 75%;
-    margin: 60px auto 0;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    font-size: 18px;
-    text-align: center;
-    color: #3772FF;
-}
-/*------------------ header container ------------------ */
-/*------------------ content container ------------------ */
-main {
-    width: 100%;
-    min-height: 651px;
-    overflow: auto;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
-}
+    .container-perfil input {
+        width: 90%;
+        height: 48px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+        margin: 8px auto 0;
+        border: none;
+    }
 
-.container-perfil {
-    width: 364px;
-    min-height: 825px;
-    background: #F6F6F6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 10px;
-}
+    .container-perfil input:last-of-type {
+        height: 104px;
+    }
 
-.container-titulo {
-    width: 100%;
-    height: 56px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
+    .container-perfil button {
+        width: 164px;
+        height: 40px;
+        background: #FC7071;
+        border-radius: 6px;
+        border: none;
+        margin: 32px auto 0;
 
-.container-titulo h2 {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 21px;
-    line-height: 24px;
-    color: #737380;
-}
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        line-height: 24px;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
 
-.margem-top {
-    margin-top: 25px;
-}
 
-.profile-photo {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.profile-photo button {
-    background: none;
-    border: none;
-}
+    /*------------------ main container ------------------ */
+    /*------------------ footer container ------------------ */
+    footer {
+        width: 100%;
+        height: 100px;
+        background: #36D6AD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.profile-photo img {
-    height: 80px;
-}
+    footer  p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
 
-.profile-photo p {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
-    color: #FC7071;
-}
-
-.placa {
-    width: 90%;
-    height: 24px;
-    margin-bottom: 10px;
-}
-
-.placa label {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    color: #3772FF;
-}
-
-.entrada {
-    width: 332px;
-    height: 48px;
-    margin-bottom: 20px;
-}
-
-.entrada input{
-    width: 100%;
-    height: 48px;
-    background: #FFFFFF;
-    mix-blend-mode: normal;
-    border: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-}
-
-.entrada input::placeholder {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #BCBCBC;
-}
-
-.areatexto {
-    width: 332px;
-}
-
-.areatexto textarea {
-    display: block;
-    resize: none;
-    border: none;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
+    footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    /*------------------ footer container ------------------ */
 }
 
-.areatexto textarea::placeholder {
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #BCBCBC;
-}
+/*------------------ Phone container ------------------ */
+@media screen (max-width: 412px) {
+    /*------------------ main container ------------------ */
+    body {
+        width: 412px;
+        min-height: 915px;
 
-.botao-form {
-    width: 100%;
-    height: 102px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        background: url('./img/vector1.png') 0 0 no-repeat, #FFFFFF;
 
-.botao-form button {
-    width: 148px;
-    height: 40px;
-    background: #FC7071;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 6px;
-}
-/*------------------ content container ------------------ */
-/*------------------ footer container ------------------ */
-footer {
-    width: 100%;
-    height: 100px;
-    background: #36D6AD;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        display: flex;
+        flex-direction: column;
+    }
+    /*------------------ main container ------------------ */ 
+    /*------------------ header container ------------------ */
+    header {
+        width: 100%;
+        height: 250px;
+        /* background: url('./img/vector1.png') 0 0 no-repeat; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 21px;
+    }
 
-footer  p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    font-size: 16px;
-    text-align: center;
-    color: #FFFFFF;
+    .container-nav-header {
+        width: 100%;
+        height: 68px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .botao-home {
+        margin-left: 60px;
+        padding: 0;
+        width: 20px;
+        border: none;
+        background: none;
+    }
+
+    .botao-home img {
+        width: 20px;
+    }
+
+    .botao-mensagem {
+        margin-left: 60px;
+        padding: 0;
+        width: 25px;
+        border: none;
+        background: none;
+    }
+
+    .botao-mensagem img {
+        width: 25px;
+    }
+
+    .botao-perfil {
+        margin-left: 130px;
+        padding: 0;
+        width: 40px;
+        border: none;
+        background: none;
+        justify-content: right;
+    }
+
+    .botao-perfil img {
+        width: 40px;
+    }
+
+    .container-titulo-home {
+        width: 100%;
+        height: 170px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container-titulo-home p {
+        width: 75%;
+        margin: 60px auto 0;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 18px;
+        text-align: center;
+        color: #3772FF;
+    }
+    /*------------------ header container ------------------ */
+    /*------------------ content container ------------------ */
+    main {
+        width: 100%;
+        min-height: 651px;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    .container-perfil {
+        width: 364px;
+        min-height: 825px;
+        background: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .container-titulo {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .container-titulo h2 {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 24px;
+        color: #737380;
+    }
+
+    .margem-top {
+        margin-top: 25px;
+    }
+
+    .profile-photo {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile-photo button {
+        background: none;
+        border: none;
+    }
+
+    .profile-photo img {
+        height: 80px;
+    }
+
+    .profile-photo p {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        color: #FC7071;
+    }
+
+    .placa {
+        width: 90%;
+        height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .placa label {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+    .entrada {
+        width: 332px;
+        height: 48px;
+        margin-bottom: 20px;
+    }
+
+    .entrada input{
+        width: 100%;
+        height: 48px;
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        border: none;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+    }
+
+    .entrada input::placeholder {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #BCBCBC;
+    }
+
+    .areatexto {
+        width: 332px;
+    }
+
+    .areatexto textarea {
+        display: block;
+        resize: none;
+        border: none;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+    }
+
+    .areatexto textarea::placeholder {
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #BCBCBC;
+    }
+
+    .botao-form {
+        width: 100%;
+        height: 102px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botao-form button {
+        width: 148px;
+        height: 40px;
+        background: #FC7071;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 6px;
+    }
+    /*------------------ content container ------------------ */
+    /*------------------ footer container ------------------ */
+    footer {
+        width: 100%;
+        height: 100px;
+        background: #36D6AD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer  p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    /*------------------ footer container ------------------ */
 }
-/*------------------ footer container ------------------ */

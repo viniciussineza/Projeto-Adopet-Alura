@@ -8,9 +8,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Joan&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../assets/style-login.css">
+        <link rel="stylesheet" href="../assets/style-mensagem.css">
         <link rel="icon" href="../assets/img/icon-title.png" type="image/icon type">
-        <title>Adopet - Login</title>
+        <title>Adopet - Mensagem</title>
     </head>
     <body>
         <header>
@@ -21,27 +21,28 @@
                 <button type="button" class="botao-home">
                     <img src="../assets/img/casa.png" alt="Home">
                 </button>
-                <button type="button" class="botao-mensagem">
+                <button type="butt on" class="botao-mensagem">
                     <img src="../assets/img/mensagens.png" alt="Mensagens - Botão para entrar em contato">
                 </button>
-    <!--                 <button type="button" class="botao-perfil">
+                <button type="button" class="botao-perfil">
                     <img src="../assets/img/usuario.png" alt="Botão para o perfil de usuário">
-                </button> -->
+                </button>
             </nav>
         </header>
         <main>
             <section class="container-texto-tablet">
-                <img src="../assets/img/tablet-logo-azul.png" alt="logo marca">
-                <p class="p__margen-top">Já tem conta? Faça seu login:</p>
+                <p>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal: </p>
             </section>
-            <section class="container-form-login-tablet">
-                <form>
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail" placeholder="Digite seu melhor email">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" placeholder="Insira sua senha">
-                    <button type="button">Entrar</button>
-                </form>
+            <section class="container-formulario">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="Insira seu nome completo">
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" placeholder="Insira seu telefone e/ou whatsapp">
+                <label for="animal">Nome do animal</label>
+                <input type="text" id="animal" placeholder="Por qual animal você se interessou?">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <button type="button">Enviar</button>
             </section>
         </main>
         <footer>
