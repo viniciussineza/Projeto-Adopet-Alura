@@ -1,9 +1,9 @@
 @import url(reset.css);
-@import url(./modulos/body-branco.css);
-@import url(./modulos/main-home.css);
+@import url(./modulos/body-azul.css);
+@import url(./modulos/main.css);
 @import url(./modulos/header.css);
 @import url(./modulos/texto-topo.css);
 @import url(./modulos/forms.css);
-@import url(./modulos/cards.css);
+@import url(./modulos/botoes-login.css);
 @import url(./modulos/cat-dog.css);
 @import url(./modulos/footer.css);

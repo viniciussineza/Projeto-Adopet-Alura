@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./assets/reset.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Joan&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="./assets/style-home.css">
+            <link rel="icon" href="./assets/img/icon-title.png" type="image/icon type">
+            <title>Adopet - Perfil</title>
+        </head>
+    <body>
+        <header>
+            <nav class="container-nav-header-tablet">
+                <a href="inicial-d.html" class="botao-logo">
+                    <img src="./assets/img/nav-tablet-logo.png" alt="Logomarca Adopet - Botão para página principal">
+                </a>
+                <a href="#" class="botao-home">
+                    <img src="./assets/img/casa.png" alt="Home">
+                </a>
+                <a href="#" class="botao-mensagem">
+                    <img src="./assets/img/mensagens.png" alt="Mensagens - Botão para entrar em contato">
+                </a>
+                <a href="#" class="botao-perfil">
+                    <img src="./assets/img/usuario.png" alt="Botão para o perfil de usuário">
+                </a>
+            </nav>
+        </header>
+        <main>
+            <section class="conteudo-inicial__perfil">
+                <p>Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem</p>
+            </section>
+            <section class="conteudo-inicial__perfil-form">
+                <div class="conteudo-inicial__perfil-form-foto">
+                    <h4>Perfil</h4>
+                    <label>Foto</label>
+                    <a href="#">
+                        <img src="./assets/img/usuario.png" alt="Foto perfil usuário">
+                    </a>
+                    <p>Clique na foto para editar</p>
+                </div>
+                <form method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" name="city">
+                    <label for="about">Sobre</label>
+                    <textarea id="about" name="about"></textarea>
+                    <input type="button" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>2022 - Desenvolvido por <a href="https://www.linkedin.com/in/vin%C3%ADcius-sineza-1bba3b28/" target="_blank">Vinicius</a> (Alura Challenge)</p>
+        </footer>
+    </body>
+</html>

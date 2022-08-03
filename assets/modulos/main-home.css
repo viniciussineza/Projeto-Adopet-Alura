@@ -1,0 +1,21 @@
+main {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/tablet-forma2.png) top 50% right no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    main {
+        background: none;
+    }
+}  

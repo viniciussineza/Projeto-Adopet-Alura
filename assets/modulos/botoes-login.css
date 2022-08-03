@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.conteudo-inicial__botoes-login button {
+.conteudo-inicial__botoes-login a {
     width: 362px;
     height: 48px;
     display: flex;
@@ -16,6 +16,7 @@
     border-radius: 6px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -25,7 +26,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .conteudo-inicial__botoes-login button {
+    .conteudo-inicial__botoes-login a {
         width: 344px;
     }
 }
@@ -34,7 +35,7 @@
     .conteudo-inicial__botoes-login {
         height: 136px;
     }
-    .conteudo-inicial__botoes-login button {
+    .conteudo-inicial__botoes-login a {
         width: 180px;
         height: 40px;
         font-size: 16px;

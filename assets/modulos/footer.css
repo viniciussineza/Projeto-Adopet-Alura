@@ -20,3 +20,9 @@ footer a {
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media screen and (max-width: 412px) {
+    footer p {
+        width: 260px;
+    }
+}

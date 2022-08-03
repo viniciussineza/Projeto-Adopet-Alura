@@ -1,0 +1,230 @@
+.conteudo-inicial__cadastro-form form, 
+.conteudo-inicial__login-form form {
+    height: 638px;
+    margin: 48px 0 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-inicial__mensagem-form, 
+.conteudo-inicial__perfil-form {
+    width: 552px;
+    margin: 40px 0 40px 0;
+    background: #f7F7f7;
+}
+
+.conteudo-inicial__mensagem-form form,
+.conteudo-inicial__perfil-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-inicial__cadastro-form label, 
+.conteudo-inicial__login-form label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    color: #737380;
+    margin-top: 24px;
+}
+
+.conteudo-inicial__mensagem-form label, 
+.conteudo-inicial__perfil-form label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #3772FF;
+    margin: 24px auto 0;
+    width: 90%;
+}
+
+.conteudo-inicial__cadastro-form input[type=text], 
+.conteudo-inicial__cadastro-form input[type=email],
+.conteudo-inicial__login-form input[type=email] {
+    width: 552px;
+}
+
+.conteudo-inicial__cadastro-form input, 
+.conteudo-inicial__login-form input {
+    width: 362px;
+    height: 40px;
+    background: #F7F7F7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin-top: 8px;
+    border: none;
+}
+
+.conteudo-inicial__mensagem-form input,
+.conteudo-inicial__perfil-form input {
+    width: 492px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin: 8px auto 0;
+    border: none;
+}
+
+.conteudo-inicial__mensagem-form textarea, 
+.conteudo-inicial__perfil-form textarea {
+    width: 90%;
+    height: 172px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin: 8px auto 0;
+    border: none;
+    resize: none;
+}
+
+.conteudo-inicial__cadastro-form input::placeholder, 
+.conteudo-inicial__login-form input::placeholder,
+.conteudo-inicial__mensagem-form input::placeholder,
+.conteudo-inicial__mensagem-form textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 16px;
+    text-align: center;
+    color: #BCBCBC;
+}
+
+.conteudo-inicial__cadastro-form input[type=button], 
+.conteudo-inicial__login-form input[type=button],
+.conteudo-inicial__mensagem-form input[type=button],
+.conteudo-inicial__perfil-form input[type=button] {
+    width: 174px;
+    height: 40px;
+    margin: 32px auto;
+    background: #FC7071;
+    border-radius: 6px;
+    border: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.conteudo-inicial__perfil-form-foto {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 32px 0 0 0;
+}
+
+.conteudo-inicial__perfil-form .conteudo-inicial__perfil-form-foto h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 21px;
+    text-align: center;
+    color: #737380;
+}
+
+.conteudo-inicial__perfil-form .conteudo-inicial__perfil-form-foto a {
+    text-decoration: none;
+    width: 80px;
+    margin: 8px auto 4px;
+}
+
+.conteudo-inicial__perfil-form .conteudo-inicial__perfil-form-foto img {
+    width: 80px;
+}
+
+.conteudo-inicial__perfil-form .conteudo-inicial__perfil-form-foto p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+    color: #FC7071;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-inicial__cadastro-form form,
+    .conteudo-inicial__login form {
+        margin: 16px 0 0 0;
+    }
+
+    .conteudo-inicial__login-form form {
+        margin: 40px 0 0 0;
+    }
+
+    .conteudo-inicial__cadastro-form input[type=text], 
+    .conteudo-inicial__cadastro-form input[type=email],
+    .conteudo-inicial__login-form input[type=email] {
+        width: 344px;
+    }
+
+    .conteudo-inicial__cadastro-form input, 
+    .conteudo-inicial__login-form input {
+        width: 344px;
+    }
+
+    .conteudo-inicial__cadastro-form input::placeholder, 
+    .conteudo-inicial__login-form input::placeholder {
+        font-size: 14px;
+    }
+
+    .conteudo-inicial__cadastro-form input[type=button],
+    .conteudo-inicial__login-form input[type=button] {
+        width: 164px;
+        margin-top: 40px;
+
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .conteudo-inicial__cadastro-form form {
+        height: 480px;
+        margin: 24px 0 0 0;
+    }
+
+    .conteudo-inicial__cadastro-form label {
+        margin-top: 20px;
+    }
+
+    .conteudo-inicial__cadastro-form input[type=text], .conteudo-inicial__cadastro-form input[type=email] {
+        width: 312px;
+    }
+
+    .conteudo-inicial__cadastro-form input {
+        width: 312px;
+        margin-top: 4px;
+    }
+
+    .conteudo-inicial__cadastro-form input::placeholder, 
+    .conteudo-inicial__mensagem-form input::placeholder,
+    .conteudo-inicial__mensagem-form textarea::placeholder {
+        font-size: 12px;
+    }
+
+    .conteudo-inicial__cadastro-form input[type=button],
+    .conteudo-inicial__perfil-form input[type=button] {
+        width: 148px;
+        margin-top: 24px;
+
+        font-weight: 600;
+    }
+
+    .conteudo-inicial__perfil-form,
+    .conteudo-inicial__mensagem-form {
+        width: 312px;
+    }
+
+    .conteudo-inicial__perfil-form form input,
+    .conteudo-inicial__mensagem-form input {
+        width: 280px;
+    }
+}

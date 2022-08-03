@@ -1,0 +1,126 @@
+.conteudo-home-cards {
+    width: 1153px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    margin: 40px 0 60px 0;
+}
+
+.conteudo-home-cards__pet-n {
+    width: 363px;
+    height: 196px;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+}
+
+.conteudo-home-cards__pet-n__img {
+    width: 150px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo-home-cards__pet-n__img img {
+    width: 148px;
+    margin-left: 10px;
+}
+
+.conteudo-home-cards__pet__aside {
+    width: 160px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.conteudo-home-cards__pet__aside h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 18px;
+    color: #3772FF;
+}
+
+.conteudo-home-cards__pet__aside p:nth-of-type(1) {
+    margin-top: 8px;
+}
+
+.conteudo-home-cards__pet__aside p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    color: #737380;
+}
+
+.conteudo-home-cards__pet__aside p:last-of-type {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 12px;
+    color: #737380;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.conteudo-home-cards__pet__aside-contato {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.conteudo-home-cards__pet__aside-contato a {
+    width: 18px;
+    padding: 0;  
+    border: none;
+    background: none;
+}
+
+.conteudo-home-cards__pet__aside-contato a img {
+    width: 18px;
+}
+
+.conteudo-home-cards__pet__aside .conteudo-home-cards__pet__aside-contato p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 10px;
+    color: #737380;
+    margin: 0;
+    align-items: center;
+    flex-grow: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-home-cards {
+        width: 100%;
+        margin: 32px 0 32px 0;
+    }
+
+    .conteudo-home-cards_pet-n {
+        width: 344px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .conteudo-home-cards {
+        width: 92%;
+        margin: 32px 0 32px 0;
+    }
+
+    .conteudo-home-cards_pet-n {
+        width: 360px;
+    }
+}

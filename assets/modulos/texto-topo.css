@@ -1,0 +1,176 @@
+.conteudo-inicial__boas-vindas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-inicial__boas-vindas img {
+    margin-top: 44px;
+    width: 259px;
+}
+
+.conteudo-inicial__boas-vindas h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px
+}
+
+.conteudo-inicial__boas-vindas p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 488px;
+    margin: 24px 0 16px;
+}
+
+.conteudo-inicial__cadastro, .conteudo-inicial__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 552px;
+}
+
+.conteudo-inicial__cadastro img, .conteudo-inicial__login img {
+    margin-top: 44px;
+    width: 259px;
+}
+
+.conteudo-inicial__home {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+    margin-top: 40px;
+}
+
+.conteudo-inicial__perfil {
+    margin-top: 110px;
+    width: 552px;
+}
+    
+
+
+.conteudo-inicial__mensagem {
+    width: 492px;
+    margin: 108px 0 0 0;
+}
+
+.conteudo-inicial__cadastro p, 
+.conteudo-inicial__login p,
+.conteudo-inicial__home p,
+.conteudo-inicial__mensagem p,
+.conteudo-inicial__perfil p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center; 
+    color: #3772FF;
+}
+
+.conteudo-inicial__login img {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-inicial__boas-vindas img {
+        margin-top: 184px;
+    }
+
+    .conteudo-inicial__boas-vindas p {
+        width: 344px;
+    }
+
+    .conteudo-inicial__cadastro img { 
+        margin-top: 161px;
+    }
+    
+    .conteudo-inicial__login img {
+        margin-top: 161px;
+    }
+
+    .conteudo-inicial__cadastro p, 
+    .conteudo-inicial__login p {
+        width: 525px;
+    }
+
+    .conteudo-inicial__home {
+        margin-top: 199px;
+        flex-direction: column;
+        align-items: center;
+        width: 373px;
+    }
+
+    .conteudo-inicial__home p {
+        line-height: 20px;
+    }
+
+    .conteudo-inicial__mensagem,
+    .conteudo-inicial__perfil {
+        width: 524px;
+        margin: 196px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .conteudo-inicial__boas-vindas img {
+        margin-top: 98px;
+        width: 186px
+    }
+
+    .conteudo-inicial__boas-vindas h2 {
+        margin-top: 24px;
+        font-size: 26px;
+    }
+
+    .conteudo-inicial__boas-vindas p {
+        margin: 16px 0;
+        width: 248px;
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .conteudo-inicial__cadastro img { 
+        margin-top: 87px;
+        width: 142px
+    }
+
+    .conteudo-inicial__cadastro p {
+        margin: 24px 0;
+        width: 312px;
+        line-height: 21px;
+        font-size: 16px;
+    }
+
+    .conteudo-inicial__home {
+        margin-top: 82px;
+        width: 226px;
+    }
+
+    .conteudo-inicial__home p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .conteudo-inicial__mensagem {
+        width: 226px;
+        margin: 100px 0 0 0;
+    }
+
+    .conteudo-inicial__perfil {
+        width: 247px;
+        margin: 100px 0 0 0;
+    }
+
+    .conteudo-inicial__perfil p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+}
